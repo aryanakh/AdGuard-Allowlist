@@ -1,3 +1,18 @@
 ! ==== Random Websites (sites, blogs, storage, security, networking) ====
 @@||alpaca.markets^
 @@||*.alpaca.markets^
+
+! ==== Paid Subscriptions (Paramount +) ====
+@@||saa.paramountplus.com^
+@@||saa.cbsi.com^
+@@||vod-gcs-cedexis.cbsavideo.com^
+@@||cbsinteractive.hb.omtrdc.net^
+@@||cbsi.live.ott.irdeto.com^
+@@||tags.tiqcdn.com^
+@@||wwimage-us.pplusstatic.com^
+@@||wwimage-secure.cbsstatic.com^
+@@||thumbnails.cbsig.net^
+@@||bakery.pplus.paramount.tech^
+! The regex for video loading is: ^[^\.]+\.cws\.conviva\.com$
+! This translates to: *.cws.conviva.com. We use the base domain with ||...^ to allow all subdomains.
+@@||cws.conviva.com^
